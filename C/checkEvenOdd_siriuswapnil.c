@@ -6,15 +6,6 @@ void main()
     int num;
     printf("Enter the number you have to check: \n");
     scanf("%d",&num);
-    //Check for even number
-    if(num%2==0)
-    {
-        printf("The number %d is even\n",num);
-    }
-    //Check for odd number
-    else
-    {
-        printf("The number %d is odd\n",num);
-    }
-  
+   (num%2==0)?printf("Number is even"):printf("Number is odd");
+  return 0;
 }
